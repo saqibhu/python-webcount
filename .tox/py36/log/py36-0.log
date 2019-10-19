@@ -1,0 +1,10 @@
+action: py36, msg: getenv
+cwd: /home/saqib/Documents/dev/python/cicd/python-webcount/.tox
+cmd: /home/saqib/Documents/dev/python/cicd/venv/bin/python3 -m virtualenv --no-download --python /home/saqib/Documents/dev/python/cicd/venv/bin/python3 py36
+Already using interpreter /home/saqib/Documents/dev/python/cicd/venv/bin/python3
+Using real prefix '/usr'
+Path not in prefix '/home/saqib/Documents/dev/python/cicd/venv/include/python3.6m' '/usr'
+New python executable in /home/saqib/Documents/dev/python/cicd/python-webcount/.tox/py36/bin/python3
+Also creating executable in /home/saqib/Documents/dev/python/cicd/python-webcount/.tox/py36/bin/python
+Installing setuptools, pip, wheel...
+done.

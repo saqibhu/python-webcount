@@ -1,0 +1,17 @@
+action: py36, msg: installpkg
+cwd: /home/saqib/Documents/dev/python/cicd/python-webcount
+cmd: /home/saqib/Documents/dev/python/cicd/python-webcount/.tox/py36/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/webcount-0.1.zip
+Processing ./.tox/.tmp/package/1/webcount-0.1.zip
+Building wheels for collected packages: webcount
+  Building wheel for webcount (setup.py): started
+  Building wheel for webcount (setup.py): finished with status 'done'
+  Created wheel for webcount: filename=webcount-0.1-cp36-none-any.whl size=2228 sha256=cea6c216350ba8962cb7dcd58cae8de627b5a0d9922248354d785e6b5d941d52
+  Stored in directory: /home/saqib/.cache/pip/wheels/3a/5c/3a/d7a73bf420733c7ee6da14176c15453b425b551103ffc2b7e3
+Successfully built webcount
+Installing collected packages: webcount
+  Found existing installation: webcount 0.1
+    Not uninstalling webcount at /home/saqib/Documents/dev/python/cicd/python-webcount, outside environment /home/saqib/Documents/dev/python/cicd/python-webcount/.tox/py36
+    Can't uninstall 'webcount'. No files were found to uninstall.
+Successfully installed webcount-0.1
+WARNING: You are using pip version 19.2.3, however version 19.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
